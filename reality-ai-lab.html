@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="css/ux-project.css">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jirui Qian</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="menu-container">
+        <a class="home" href="index.html">
+            Home
+        </a>
+        <a class="graphic-design" href="graphic-design.html">
+            Graphic Design
+        </a>
+        <a class="graphic-design" href="motion-design.html">
+            Motion Design
+        </a>
+        <a class="resume" href="images/NicoleQianDesignCV.pdf">
+            Resume
+        </a>
+    </div>
+
+    <div class="middle-container">
+        <img class="cover" src="images/ats-cover.png" alt="prototype-img">
+        <div class="row">
+            <div class="col">
+                <h3>Duration</h3>
+                <p>Sep - Dec 2023</p>
+            </div>
+            <div class="col">
+                <h3>My Role</h3>
+                <p>AI Product Designer</p>
+            </div>
+            <div class="col">
+                <h3>Tool</h3>
+                <p>Figma</p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- <div class="col">
+                <h3>The problem</h3>
+                <p>People arrive at the movie
+                    theatre late but still want
+                    snacks without going through
+                    waiting in line to order or people
+                    want theatre’s food to be ordered and
+                    delivered elsewhere.</p>
+            </div> -->
+            <div class="col">
+                <h2>
+                    Impacts
+                </h2>
+                <p className='text-left text-xl mt-4 font-light'>
+                    Achieved a 92% user satisfaction rate during prototype testing. 83% of participants said it improved 
+                    their interview confidence, and 75% reported they would recommend 
+                    it to peers preparing for UX or tech interviews.
+
+                    Led the end-to-end product design process, from research and competitor analysis to system design and testing:
+                        1. Conducted competitor analysis on existing AI interview tools
+                        2. Collaborated with two designers to create a shared design system in Figma
+                        3. Designed and iterated through three rounds of high-fidelity prototypes
+                        4. Validated usability through user testing and surveys
+                </p>
+            </div>
+        </div>
+        <div class="row">
+      <div class="col">
+        <h3>The problem</h3>
+        <p>Many learners practice interviews alone or through static question banks.
+        They often receive no feedback on language use, tone, or communication 
+        patterns—factors that shape real-world interview success.</p>
+      </div>
+      <div class="col">
+        <h3>The goal</h3>
+        <p>Design a platform that not only simulates interviews 
+            but also analyzes verbal performance and guides improvement over time.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h2>User research: summary</h2>
+        <p>I conducted a competitive analysis of leading study and learning platforms like Quizlet, 
+            Brainscape, and Khan Academy to understand the current offerings in educational tools. 
+            The analysis revealed critical gaps in how interview practice platforms address language 
+            feedback and real-time performance tracking.
+            Key Takeaways:
+            1. Focus on Depth & Customization: Unlike Quizlet and Brainscape, 
+            Reality AI Lab (formerly Radical AI) provides real-time performance metrics such as repeated words, strong/weak word usage, and pauses.
+            2. Practical Use of Feedback: Our tool goes beyond memorization and ensures users get actionable 
+            feedback on language clarity, which platforms like Quizlet don’t fully address.
+            3. Personalized Progress: The emphasis on interview-specific feedback in Reality AI Lab (formerly Radical AI) makes it unique 
+            compared to general-purpose learning apps like Khan Academy.
+        </p>
+      </div>
+    </div>
+
+    <!-- <div class="row">
+      <div class="col">
+        <h3>Time</h3>
+        <p>Working adults are too busy to arrive at the movie
+          theatre on time to have enough time for ordering
+          snacks before the movie starts.</p>
+      </div>
+      <div class="col">
+        <h3>Accessibility</h3>
+        <p>Many platforms for ordering movie
+          snacks are not equipped with assistive technologies.
+        </p>
+      </div>
+      <div class="col">
+        <h3>IA</h3>
+        <p>Text-heavy menus in apps are often difficult to
+          read and order from.
+        </p>
+      </div>
+    </div> -->
+    <div class="row">
+            <div class="col">
+                <h2>How Insights Influenced Design Choices</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"><img class="cover" src='images/ats-old-design.png'></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 className='text-left text-4xl'>Insight 1</h2>
+                <h3>Gap in Performance Feedback</h3>
+                <p>Platforms like Quizlet and Brainscape provided useful learning modes and memory retention techniques but lacked 
+                    in-depth performance feedback beyond simple correctness or flashcard repetition.
+                </p>
+            </div>
+            <div class="col">
+                <h2 className='text-left text-4xl'>Insight 2</h2>
+                <h3>Need for Gamification to Keep Users Engaged</h3>
+                <p className='mt-2 text-left text-xl font-light'>Brainscape’s flashcards feature periodic repetition, 
+                    but there was no sense of progression or motivation beyond the content itself. Quizlet’s match mode 
+                    attempted to add fun with ranking, but it didn’t engage users beyond a conceptual level.
+                </p>
+            </div>
+            </col>
+            <div class="col">
+                <h2>Insight 3</h2>
+                <h3>Emphasis on Customization and Personalization</h3>
+                <p className='mt-2 text-left text-xl font-light'>
+                    While Khan Academy offered a rich, in-depth experience, it often felt too text-heavy and lacked interactive, 
+                    user-driven customization. This created friction for users who wanted more personalized feedback and engagement.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Design Choice 1</h2>
+                <p>To address this, I introduced real-time performance feedback that analyzes not just correct answers but also how learners respond in 
+                    terms of language quality, tone, and clarity. The platform evaluates common challenges like repetition of words, use of filler words, 
+                    and timing of pauses, and provides actionable suggestions to improve. This made the learning experience more dynamic and personalized, 
+                    catering to users looking for continuous improvement rather than static results.</p>
+            </div>
+            <div class="col"><img class="solution-img" src="images/solution-1.png"></div>
+        </div>
+        <div class="row">
+            <div class="col"><img class="solution-img" src="images/solution-2.png">
+            </div>
+            <div class="col">
+                <h2>Design Choice 2</h2>
+                <p>Drawing from this, I designed progress tracking features that show users their completion rate and performance scores in real-time, 
+                    presented as graphs and charts. Additionally, the “Good Job” and “Need Improvement” visual cues directly addressed users’ need for 
+                    gamified, motivational feedback. This feature mirrors competitive ranking, similar to Quizlet’s match mode, but with deeper contextual 
+                    relevance, such as progress in behavioral, technical, and situational question categories.
+                </p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Design Choice 3</h2>
+                <p>I prioritized customization options in the mock interview modes, where users can select question types (e.g., behavioral, technical, situational)
+                     and adjust difficulty levels. The personalized AI feedback also evolves based on performance trends over time, providing a unique experience for
+                      each user. This was designed to help users feel in control of their learning journey, instead of passively consuming content. The ability to
+                       customize question types and difficulty levels made the platform dynamic, addressing the need for both depth and variety.
+                </p>
+            </div>
+            <div class="col"><img class="solution-img" src="images/solution-3.png"></div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h2>Prototype Testing</h2>
+            </div>
+        </div>
+
+    <div class="row">
+      <div class="col">
+        <p>To validate the effectiveness of Radical AI, I conducted prototype testing with 12 participants from diverse backgrounds, including early-career professionals 
+            and mid-level UX designers. The goal was to gather feedback on the core features, such as the mock interview process, real-time AI feedback, and performance tracking.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <h2>Testing Methodology</h2>
+        </div>
+    </div>
+    
+    <div class="row">
+      <div class="col">
+        <h3>Participants</h3>
+        <p>12 participants, aged 22-35, preparing for UX and tech interviews, with a mix of novice and intermediate-level skills.</p>
+      </div>
+      <div class="col">
+        <h3>Duration</h3>
+        <p>Feedback was gathered through a combination of:
+        </p>
+      </div>
+      <div class="col">
+        <h3>Data Collection</h3>
+        <p>Feedback was gathered through a combination of:
+            Surveys: To measure user satisfaction and perceived confidence improvements.
+            User Interviews: To capture qualitative insights about their experience with navigation, feedback interpretation, and overall usability.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col">
+            <h2>Key Metrics and Feedback</h2>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h3>92% User Satisfaction</h3>
+        <p>Out of the 12 participants, 11 were highly satisfied with the platform, praising its user-friendly interface, the clarity of the performance feedback, and the ease of navigation.</p>
+      </div>
+      <div class="col">
+        <h3>83% Improved Confidence</h3>
+        <p>10 participants reported feeling more confident in their ability to answer interview questions after receiving personalized feedback, especially regarding word choice, tone, and pacing.
+        </p>
+      </div>
+      <div class="col">
+        <h3>75% Would Recommend</h3>
+        <p>9 participants indicated they would recommend the platform to their peers, citing its value in preparing for UX and tech interviews through realistic practice and insightful AI feedback.
+        </p>
+      </div>
+    </div>
+
+    
+    <div class="row">
+        <div class="col">
+            <h2>Key Insights from Testing</h2>
+        </div>
+    </div>
+    
+    <div class="row">
+      <div class="col">
+        <h3>Real-Time Feedback</h3>
+        <p>Participants appreciated the immediate, actionable feedback after each session, particularly for its ability to identify filler words and offer alternative suggestions for stronger phrasing.</p>
+      </div>
+      <div class="col">
+        <h3>Progress Tracking</h3>
+        <p>The progress dashboard was particularly well-received, as it allowed users to track their improvements and feel motivated throughout their practice sessions.
+        </p>
+      </div>
+      <div class="col">
+        <h3>Tone of AI Feedback</h3>
+        <p>Users found the tone of the AI feedback to be supportive and encouraging, which helped mitigate the intimidation often felt when interacting with AI-driven platforms.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col">
+            <h2>Takeaways</h2>
+        </div>
+    </div>
+    
+    <div class="row">
+      <div class="col">
+        <h3>User-Centered Design Drives Success</h3>
+        <p>The emphasis on user feedback was crucial throughout the design process. Engaging with participants early and often ensured that every design decision was grounded in real user needs and expectations. 
+            By focusing on user satisfaction (92%) and understanding how real-time feedback and progress tracking impacted their confidence, 
+            I learned how to prioritize features that resonate with users. In the future, continuous feedback and usability testing would be a key strategy for validating and 
+            iterating on designs before launch.</p>
+      </div>
+      <div class="col">
+        <h3>Balance Between Functionality and Emotional Experience</h3>
+        <p>The emotional aspect of the user experience was just as important as the functionality. Creating a platform that feels supportive, motivational, and encouraging helped users feel more comfortable 
+            and confident while interacting with AI. This balanced approach—where data-driven feedback is paired with an empathetic tone—was critical in making the platform feel like a coaching tool rather 
+            than a cold, impersonal evaluator. Moving forward, I’ll continue to focus on the emotional side of UX design, especially when working on AI-driven platforms, where user trust and engagement are key.
+        </p>
+      </div>
+    </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/jirui-nicole-qian-6a99931a0/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/NicoleQian2001">GitHub</a>
+    <p class="copyright">© coded with love by me in 2023</p>
+  </div>
+
+</html>
