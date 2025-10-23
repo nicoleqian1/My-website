@@ -221,6 +221,7 @@ body {
 .btn:hover {
   background: linear-gradient(135deg, #30e3cb, #2bc4ad);
   transform: translateY(-3px); /* slight lift effect */
+  color: white;
   box-shadow: 0 8px 16px rgba(17, 153, 158, 0.3);
 }
   
