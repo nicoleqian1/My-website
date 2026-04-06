@@ -134,7 +134,7 @@ hr {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 200px;
 }
 
 .middle-container {
@@ -252,7 +252,7 @@ p {
 .bottom-cloud {
   position: absolute;
   right: 1000px;
-  top: 550px;
+  top: 700px;
 }
 
 .bi.bi-arrow-down {
