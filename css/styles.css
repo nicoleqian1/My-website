@@ -202,10 +202,11 @@ hr {
   margin-top: 30px;
 }
 
-p {
-  line-height: 2;
-  font-size: 1rem;
-}
+ p {
+   line-height: 2;
+   padding: 1em 2em 2em;
+   font-size: 1rem;
+ }
 
 .skill-row {
   width: 50%;
@@ -336,9 +337,8 @@ a:hover{
 }
 
 .contact-me .intro-text {
-  color: black;
   width: 50%;
-  margin: 0 auto; /* centers horizontally within .contact-me */
-  text-align: left; /* aligns text to the left */
+  margin: 0 auto; 
+  text-align: left; 
   padding-bottom: 5%;
 }
